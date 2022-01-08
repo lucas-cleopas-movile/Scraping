@@ -2,8 +2,8 @@ import os
 import json
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from src.scrapers import SliderScraper
-from src.scrapers import GridScraper
+from src.scrapers.SliderScraper import SliderScraper
+from src.scrapers.GridScraper import GridScraper
 
 # Instantiate options
 opts = Options()
@@ -22,6 +22,7 @@ print(genders)
 
 for gender in genders:
 
-    print("[LOG] Scraping ", gender["name"])
+    print(f"[LOG] Scraping {gender['name']}")
+
     grid = GridScraper(driver, gender["name"], gender["link"])
     grid.run()

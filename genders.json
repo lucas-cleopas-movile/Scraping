@@ -1,5 +1,6 @@
 [
     {
+        "name": "Biografia",
         "auth_code": "gender_biografia_test_faq",
         "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6ImE1NWY0MzU4LWY2OTAtNDYyZC05YWVlLWY0YWM1N2JjMDI3OCIsImVzX2luZGV4Ijoic2hhMjU2JER6c2Q1bzdzJGYyYmMwNjVhZTkxMmVkYzQ2ZTVmMGQyOTlmZGRhODQ1MWEyMWFkZjAyY2E3MDcxOGRjY2M5NWFmYmY4YTkyMzkifQ.3TacTM_l2AJ9OoX7AOn2AjHF_H0ExmPkMSazIM1-0QQ",
         "link": "https://globoplay.globo.com/categorias/biografias/"
