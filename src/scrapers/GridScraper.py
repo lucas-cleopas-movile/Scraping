@@ -81,8 +81,6 @@ class GridScraper:
             
             contents = self.get_contents()
 
-            print(len(contents))
-
             for content in contents:
                 
                 answer = f"Veja o vídeo '{content['title']}' clicando em: {content['link']}"
