@@ -8,7 +8,8 @@ from src.config import WEBDRIVER_PATH
 
 # Instantiate options
 opts = Options()
-opts.add_argument("-headless") # Uncomment if the headless version needed
+opts.add_argument("-headless") 
+opts.add_argument("--no-sandbox") 
 
 # Set the location of the webdriver
 chrome_driver = WEBDRIVER_PATH
