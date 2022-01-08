@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 from bs4 import BeautifulSoup
+import time
 from src.config import BASE_URL
 from src.utils import export_faq_csv
 
@@ -19,8 +20,10 @@ class GridScraper:
 
     def load_url(self, url):
 
-        self.driver.get(url).implicitly_wait(5)
-        
+        self.driver.get(url)
+
+        time.sleep(5)
+
     
     def extend_page(self):
 
@@ -36,7 +39,7 @@ class GridScraper:
 
                 button.click()
 
-                self.driver.implicitly_wait(5)
+                time.sleep(5)
 
                 soup = BeautifulSoup(self.driver.page_source).findAll("div", class_="action-button action-button--hidden")
                 
