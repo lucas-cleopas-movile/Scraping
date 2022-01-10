@@ -2,7 +2,7 @@ import os
 
 def export_faq_csv(df_out, name):
 
-    path = f'./data/'
+    path = f'./data'
 
     if not os.path.isdir(path):
         os.makedirs(path)

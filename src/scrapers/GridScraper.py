@@ -29,7 +29,7 @@ class GridScraper:
 
         print("[LOG] Extending the page.")
 
-        soup = BeautifulSoup(self.driver.page_source).findAll("div", class_="action-button action-button--hidden")
+        soup = BeautifulSoup(self.driver.page_source, features="lxml").findAll("div", class_="action-button action-button--hidden")
         
         while len(soup) == 0:
 
@@ -41,7 +41,7 @@ class GridScraper:
 
                 time.sleep(5)
 
-                soup = BeautifulSoup(self.driver.page_source).findAll("div", class_="action-button action-button--hidden")
+                soup = BeautifulSoup(self.driver.page_source, features="lxml").findAll("div", class_="action-button action-button--hidden")
                 
             except Exception as e:
                 print(f"[ERROR] {str(e)}")
@@ -52,7 +52,7 @@ class GridScraper:
 
     def get_contents(self):
         
-        soup = BeautifulSoup(self.driver.page_source).findAll("li", class_="playkit-offers__list-li playkit-offers__list-li--poster")
+        soup = BeautifulSoup(self.driver.page_source, features="lxml").findAll("li", class_="playkit-offers__list-li playkit-offers__list-li--poster")
 
         contents = []
 
