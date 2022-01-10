@@ -1,0 +1,140 @@
+src/webdriver/geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+src/webdriver/geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+1641843294490	geckodriver	INFO	Listening on 127.0.0.1:47885
+1641843294498	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "52033" "-no-remote" "-profile" "/tmp/rust_mozprofileA86xui"
+*** You are running in headless mode.
+1641843295341	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileA86xui/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52033/devtools/browser/7751be60-0f9a-47f8-b179-bb2c5bf1a697
+1641843297055	Marionette	INFO	Listening on port 40013
+1641843297131	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1641843903629	geckodriver	INFO	Listening on 127.0.0.1:35051
+1641843903641	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "36135" "-no-remote" "-profile" "/tmp/rust_mozprofilemFWwBF"
+*** You are running in headless mode.
+1641843904148	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemFWwBF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36135/devtools/browser/a561336c-ede0-4b35-8d41-346072d7bd33
+1641843905620	Marionette	INFO	Listening on port 40645
+1641843905667	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+1641843959058	geckodriver	INFO	Listening on 127.0.0.1:49751
+1641843959564	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "43693" "-no-remote" "-profile" "/tmp/rust_mozprofilefs9vxl"
+*** You are running in headless mode.
+1641843960281	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefs9vxl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43693/devtools/browser/22da742a-f68f-4d87-ba64-d51965774b89
+1641843962113	Marionette	INFO	Listening on port 38387
+1641843962189	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/filmes-romanticos/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/filmes-romanticos/, line 3: { opened at line 3, column 19
+1641844128128	geckodriver	INFO	Listening on 127.0.0.1:54197
+1641844128134	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "40449" "-no-remote" "-profile" "/tmp/rust_mozprofileO9jG0b"
+*** You are running in headless mode.
+1641844128712	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileO9jG0b/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40449/devtools/browser/04a26e56-ef4e-4cb2-8351-cc2cbc22220b
+1641844130355	Marionette	INFO	Listening on port 40445
+1641844130480	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+1641844176266	Marionette	INFO	Stopped listening on port 40445
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390078,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014B,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+[Parent 78466, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-BVyW0E/firefox-95.0.1+build2/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641844205633	geckodriver	INFO	Listening on 127.0.0.1:39097
+1641844205640	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "47469" "-no-remote" "-profile" "/tmp/rust_mozprofileOBW0so"
+*** You are running in headless mode.
+1641844206173	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOBW0so/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47469/devtools/browser/642c9b36-4410-42e7-a0c3-e696e24fdf92
+1641844207705	Marionette	INFO	Listening on port 44391
+1641844207770	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+JavaScript error: https://globoplay.globo.com/categorias/filmes-romanticos/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/filmes-romanticos/, line 3: { opened at line 3, column 19

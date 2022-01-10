@@ -1,11 +1,16 @@
-FROM selenium/standalone-chrome
+FROM python:slim-buster
+
+RUN apt-get update -y
+RUN apt-get install -y firefox-esr
+RUN apt-get install -y xvfb
+RUN apt-get install -y x11-utils
 
 WORKDIR /app
 COPY . ./
 
-RUN sudo apt-get update -y
-RUN sudo apt-get install python3 python3-pip -y
+RUN pip install -r requirements.txt
 
-RUN pip3 install -r requirements.txt
+# Give write permission
+# RUN chmod +w data/
 
-CMD python3 main.py
+CMD python main.py
