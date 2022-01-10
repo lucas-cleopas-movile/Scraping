@@ -6,6 +6,7 @@ from src.config import BASE_URL
 from src.utils import export_faq_csv
 
 
+
 class GridScraper:
 
     def __init__(self, driver, name, link):
@@ -25,11 +26,30 @@ class GridScraper:
         time.sleep(5)
 
     
+    def avoid_cookie_banner(self):
+
+        print(f"[LOG] Clicking cookie banner")
+
+        try:
+
+            button = self.driver.find_element_by_class_name("cookie-banner-lgpd_text-box")
+
+            button.click()
+
+            time.sleep(5)
+        
+        except Exception as e:
+
+            print(f"[ERROR] {str(e)}")
+    
+
     def extend_page(self):
 
         print("[LOG] Extending the page.")
 
         soup = BeautifulSoup(self.driver.page_source, features="lxml").findAll("div", class_="action-button action-button--hidden")
+        
+        is_cookie = True
         
         while len(soup) == 0:
 
@@ -44,8 +64,15 @@ class GridScraper:
                 soup = BeautifulSoup(self.driver.page_source, features="lxml").findAll("div", class_="action-button action-button--hidden")
                 
             except Exception as e:
+
                 print(f"[ERROR] {str(e)}")
-                break
+
+                if is_cookie:
+                    self.avoid_cookie_banner()
+                    is_cookie = False
+                    continue
+                else:
+                    break
         
         print("[LOG] Page extended.")
 
