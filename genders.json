@@ -3,12 +3,14 @@
         "name": "Biografia",
         "auth_code": "gender_biografia_test_faq",
         "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6ImE1NWY0MzU4LWY2OTAtNDYyZC05YWVlLWY0YWM1N2JjMDI3OCIsImVzX2luZGV4Ijoic2hhMjU2JER6c2Q1bzdzJGYyYmMwNjVhZTkxMmVkYzQ2ZTVmMGQyOTlmZGRhODQ1MWEyMWFkZjAyY2E3MDcxOGRjY2M5NWFmYmY4YTkyMzkifQ.3TacTM_l2AJ9OoX7AOn2AjHF_H0ExmPkMSazIM1-0QQ",
-        "link": "https://globoplay.globo.com/categorias/biografias/"
+        "link": "https://globoplay.globo.com/categorias/biografias/",
+        "faq_name": "biografia_faq.csv"
     },
     {
         "name": "Romance",
         "auth_code": "gender_romance_test_faq",
-        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6ImE1NWY0MzU4LWY2OTAtNDYyZC05YWVlLWY0YWM1N2JjMDI3OCIsImVzX2luZGV4Ijoic2hhMjU2JER6c2Q1bzdzJGYyYmMwNjVhZTkxMmVkYzQ2ZTVmMGQyOTlmZGRhODQ1MWEyMWFkZjAyY2E3MDcxOGRjY2M5NWFmYmY4YTkyMzkifQ.3TacTM_l2AJ9OoX7AOn2AjHF_H0ExmPkMSazIM1-0QQ",
-        "link": "https://globoplay.globo.com/categorias/filmes-romanticos/"
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjA0NmEyMGIxLTRiMDYtNGVjMy04NzYxLWU0M2E3NzA2OWU2OSIsImVzX2luZGV4Ijoic2hhMjU2JEE2WWJlaEZqJDljZWZhNGQ1MDk4NzFjNWFlYTlmMGIxZmRmNjM1N2Q4N2E4Yjc3N2EyZDU0ZDgyY2EwNGQxNWUyODY0NWUzZGEifQ.8opYoVOtoohDQcwvLV4JrS6OgNDnrKtG59tNSZUgabE",
+        "link": "https://globoplay.globo.com/categorias/filmes-romanticos/",
+        "faq_name": "romance_faq.csv"
     }
 ]
