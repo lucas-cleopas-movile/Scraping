@@ -138,3 +138,367 @@ JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: Sy
 JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
 JavaScript error: https://globoplay.globo.com/categorias/filmes-romanticos/, line 7: SyntaxError: missing } after property list
 JavaScript note: https://globoplay.globo.com/categorias/filmes-romanticos/, line 3: { opened at line 3, column 19
+1641927603527	Marionette	INFO	Stopped listening on port 38387
+1641927603527	Marionette	INFO	Stopped listening on port 44391
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1642164755148	geckodriver	INFO	Listening on 127.0.0.1:36947
+1642164755659	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "49193" "-no-remote" "-profile" "/tmp/rust_mozprofilehd8g9M"
+*** You are running in headless mode.
+1642164757590	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehd8g9M/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49193/devtools/browser/bcc225ed-a11c-4f35-b2a8-e3ce75a2a3d5
+1642164759088	Marionette	INFO	Listening on port 41833
+1642164759196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+JavaScript error: https://globoplay.globo.com/categorias/filmes-romanticos/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/filmes-romanticos/, line 3: { opened at line 3, column 19
+1642164928794	geckodriver	INFO	Listening on 127.0.0.1:33983
+1642164928801	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "37117" "-no-remote" "-profile" "/tmp/rust_mozprofileli3JB0"
+*** You are running in headless mode.
+1642164930348	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileli3JB0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37117/devtools/browser/508c3008-6dbd-488b-9138-808130578a64
+1642164931517	Marionette	INFO	Listening on port 46493
+1642164931626	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+JavaScript error: https://globoplay.globo.com/categorias/filmes-romanticos/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/filmes-romanticos/, line 3: { opened at line 3, column 19
+1642181100263	geckodriver	INFO	Listening on 127.0.0.1:33805
+1642181100268	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "49617" "-no-remote" "-profile" "/tmp/rust_mozprofile1rZIdZ"
+*** You are running in headless mode.
+1642181101803	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1rZIdZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49617/devtools/browser/34dde531-caf7-4fe8-81c8-1060c9ef6a12
+1642181102983	Marionette	INFO	Listening on port 39959
+1642181103108	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1642181141870	geckodriver	INFO	Listening on 127.0.0.1:33867
+1642181141876	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54247" "-no-remote" "-profile" "/tmp/rust_mozprofilenvPnpl"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1642181143713	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenvPnpl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54247/devtools/browser/cb15359c-4e54-4a9e-81be-b555e2fe2797
+1642181145336	Marionette	INFO	Listening on port 46707
+1642181145417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:false'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:442:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:406:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2091:35
+addAllSources@resource://devtools/server/actors/thread.js:1446:14
+watch@resource://devtools/server/actors/resources/sources.js:52:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:175:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:52:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:582:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:496:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:false'
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://s3.glbimg.com/v1/AUTH_2caf29d99e86401197555831070efae8/secure/app-vendor-bundle-acb2492.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://s3.glbimg.com/v1/AUTH_2caf29d99e86401197555831070efae8/secure/app-client-bundle-1893af1.css without a browsingContextID set
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1062"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1062:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:635:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:744:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1062, column: 0
+console.error: ({})
+JavaScript error: https://globoplay.globo.com/categorias/filmes-romanticos/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/filmes-romanticos/, line 3: { opened at line 3, column 19
+1642181366996	Marionette	INFO	Stopped listening on port 46707
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642181379121	geckodriver	INFO	Listening on 127.0.0.1:50083
+1642181379127	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35365" "-no-remote" "-profile" "/tmp/rust_mozprofilewS7xCU"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1642181380988	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewS7xCU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35365/devtools/browser/527e71cc-6a87-4ade-8d0e-914cc3baf0df
+1642181382450	Marionette	INFO	Listening on port 34011
+1642181382551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+1642181466142	Marionette	INFO	Stopped listening on port 34011
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 99788, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-BVyW0E/firefox-95.0.1+build2/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642181469403	geckodriver	INFO	Listening on 127.0.0.1:49219
+1642181469408	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53711" "-no-remote" "-profile" "/tmp/rust_mozprofileT9gisR"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1642181471214	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileT9gisR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53711/devtools/browser/22e91ec1-5af9-4129-a773-a9fa50969c5e
+1642181472843	Marionette	INFO	Listening on port 44927
+1642181472948	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1642181542527	geckodriver	INFO	Listening on 127.0.0.1:40609
+1642181542532	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60033" "-no-remote" "-profile" "/tmp/rust_mozprofiletHJUjQ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1642181544346	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletHJUjQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60033/devtools/browser/b957bca1-cacb-4cff-aa85-bae40d7d743a
+1642181545777	Marionette	INFO	Listening on port 44397
+1642181545858	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+JavaScript error: https://globoplay.globo.com/carolina/t/ztQcdRvQp9/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/carolina/t/ztQcdRvQp9/, line 3: { opened at line 3, column 19
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+1642181651937	Marionette	INFO	Stopped listening on port 44397
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1642181665363	geckodriver	INFO	Listening on 127.0.0.1:34243
+1642181665368	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54269" "-no-remote" "-profile" "/tmp/rust_mozprofilePoRhCX"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1642181667203	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePoRhCX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54269/devtools/browser/fd33d253-7c88-4c54-b2f8-598081b2b6a5
+1642181668901	Marionette	INFO	Listening on port 38769
+1642181668995	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: https://globoplay.globo.com/violette/t/sQGrYPRFvW/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/violette/t/sQGrYPRFvW/, line 3: { opened at line 3, column 19
+1642181701207	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://globoplay.globo.com/categorias/filmes-romanticos/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/filmes-romanticos/, line 3: { opened at line 3, column 19
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:false'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:442:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:406:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2091:35
+addAllSources@resource://devtools/server/actors/thread.js:1446:14
+watch@resource://devtools/server/actors/resources/sources.js:52:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:175:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:52:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:582:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:496:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:false'
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://s3.glbimg.com/v1/AUTH_2caf29d99e86401197555831070efae8/secure/app-vendor-bundle-acb2492.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://s3.glbimg.com/v1/AUTH_2caf29d99e86401197555831070efae8/secure/app-client-bundle-1893af1.css without a browsingContextID set
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1642181856731	Marionette	INFO	Stopped listening on port 38769
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642182230464	geckodriver	INFO	Listening on 127.0.0.1:46697
+1642182230469	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44227" "-no-remote" "-profile" "/tmp/rust_mozprofileTiDtq7"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1642182232297	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTiDtq7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44227/devtools/browser/93db5e58-eaf1-49f5-969a-73b534aa34ff
+1642182233854	Marionette	INFO	Listening on port 46657
+1642182233897	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+1642182255370	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://globoplay.globo.com/o-assassinato-de-jesse-james-pelo-covarde-robert-ford/t/S8mqCk6nHV/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/o-assassinato-de-jesse-james-pelo-covarde-robert-ford/t/S8mqCk6nHV/, line 3: { opened at line 3, column 19
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6C0025,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://globoplay.globo.com/categorias/filmes-romanticos/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/filmes-romanticos/, line 3: { opened at line 3, column 19
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642183120986	Marionette	INFO	Stopped listening on port 46657
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 102912, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-BVyW0E/firefox-95.0.1+build2/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642183153770	geckodriver	INFO	Listening on 127.0.0.1:35689
+1642183154286	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "51477" "-no-remote" "-profile" "/tmp/rust_mozprofileMQ7bF8"
+*** You are running in headless mode.
+1642183155844	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMQ7bF8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51477/devtools/browser/00f10d1a-45d2-4f51-bc00-8c09280b71e1
+1642183156956	Marionette	INFO	Listening on port 45007
+1642183157015	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+JavaScript error: https://globoplay.globo.com/categorias/filmes-romanticos/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/filmes-romanticos/, line 3: { opened at line 3, column 19
+1642183346158	geckodriver	INFO	Listening on 127.0.0.1:53659
+1642183346164	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33771" "-no-remote" "-profile" "/tmp/rust_mozprofilelaf9ot"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1642183347991	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelaf9ot/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33771/devtools/browser/36fecc2e-7b69-40d2-90c1-6bd8527cabf2
+1642183349680	Marionette	INFO	Listening on port 39025
+1642183349795	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642183360226	Marionette	INFO	Stopped listening on port 39025
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642183375758	geckodriver	INFO	Listening on 127.0.0.1:38027
+1642183375763	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "36073" "-no-remote" "-profile" "/tmp/rust_mozprofileh4fxTF"
+*** You are running in headless mode.
+1642183377264	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileh4fxTF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36073/devtools/browser/33b239a7-3e8f-4166-9b63-d31e28340e55
+1642183378376	Marionette	INFO	Listening on port 40827
+1642183378490	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+JavaScript error: https://globoplay.globo.com/categorias/filmes-romanticos/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/filmes-romanticos/, line 3: { opened at line 3, column 19
+1642183628220	geckodriver	INFO	Listening on 127.0.0.1:33811
+1642183628225	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "37383" "-no-remote" "-profile" "/tmp/rust_mozprofile5ppqFW"
+*** You are running in headless mode.
+1642183629780	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5ppqFW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37383/devtools/browser/2ebe94e1-3c7b-4c98-85b6-0726e824c5e9
+1642183630930	Marionette	INFO	Listening on port 34933
+1642183631734	RemoteAgent	WARN	TLS certificate errors will be ignored for this session

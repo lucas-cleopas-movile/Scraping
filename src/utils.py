@@ -11,19 +11,33 @@ def export_faq_csv(df_out, name):
     df_out.to_csv(f'{path}/{name}_faq.csv')
 
 
-def post_files(gender):
+def upload_faq_files(index):
 
-    url = "https://askfrank.ai:5000/update_faq"
+    host = os.getenv("FRANK_HOST", "askfrank.ai")
+    port = os.getenv("FRANK_PORT", "5000")
+    route = "/update_faq"
 
-    payload={}
-    files=[
-    ("file",(gender["file_name"],open(f"./data/{gender['file_name']}","rb"),"text/csv"))
-    ]
+    ## Create the URL
+    url = f"https://{host}:{port}{route}"
+
+    max_attempts = 3
+
+    payload = {}
+    files = [("file",(index["faq_name"],open(f"./data/{index['faq_name']}","rb"),"text/csv"))]
     headers = {
-    'auth_code': gender["auth_code"],
-    'x-access-token': gender["token"]
+        'auth_code': index["auth_code"],
+        'x-access-token': index["token"]
     }
 
-    response = requests.request("POST", url, headers=headers, data=payload, files=files)
+    ## Try max_attempts times before to return
+    attempts = 0
+    while True:
+        response = requests.request("POST", url, headers=headers, data=payload, files=files)
 
-    print(response.text)
+        if (response.status_code == 200 ) or (attempts >= max_attempts):
+            break
+        else:
+            attempts += 1
+
+    print(response.status_code, response.content)
+    return response.status_code, response.content
