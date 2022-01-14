@@ -17,7 +17,7 @@ def start_scraper(driver):
         # Scraping the gender
         print(f"[LOG] Scraping {gender['name']}")
         grid = GridScraper(driver, gender["name"], gender["link"])
-        grid.run(extend_page=False)
+        grid.run(extend_page=True)
         print(f"[LOG] {gender['name']} scraped")
 
         # Upload the new content
