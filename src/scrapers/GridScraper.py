@@ -28,19 +28,25 @@ class GridScraper:
     
     def avoid_cookie_banner(self):
 
-        print(f"[LOG] Clicking cookie banner")
+        print(f"[LOG] Clicking cookie banner.")
 
         try:
 
-            button = self.driver.find_element_by_class_name("cookie-banner-lgpd_text-box")
+            button = self.driver.find_element_by_class_name("cookie-banner-lgpd_accept-button")
 
             button.click()
 
+            print(f"[LOG] Cookie banner clicked.")
+
             time.sleep(5)
+
+            return True
         
         except Exception as e:
 
             print(f"[ERROR] {str(e)}")
+
+            return False
     
 
     def extend_page(self):
@@ -66,12 +72,14 @@ class GridScraper:
             except Exception as e:
 
                 print(f"[ERROR] {str(e)}")
-
                 if is_cookie:
-                    self.avoid_cookie_banner()
-                    is_cookie = False
-                    continue
+                    print(f"[LOG] Trying avoid cookie banner.")
+                    if self.avoid_cookie_banner():
+                        is_cookie = False
+                        soup = BeautifulSoup(self.driver.page_source, features="lxml").findAll("div", class_="action-button action-button--hidden")
+                        continue
                 else:
+                    print(f"[ERROR] {str(e)}")
                     break
         
         print("[LOG] Page extended.")
