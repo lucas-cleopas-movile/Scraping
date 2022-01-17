@@ -2,8 +2,6 @@ FROM python:slim-buster
 
 RUN apt-get update -y
 RUN apt-get install -y firefox-esr
-RUN apt-get install -y xvfb
-RUN apt-get install -y x11-utils
 
 WORKDIR /app
 COPY . ./
