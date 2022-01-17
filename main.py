@@ -12,10 +12,14 @@ def start_scraper(driver, indexes):
     for index in indexes:
 
         # Scraping the index
-        print(f"[LOG] Scraping {index['name']}")
-        grid = GridScraper(driver, index["name"], index["link"])
-        grid.run(extend_page=False)
-        print(f"[LOG] {index['name']} scraped")
+        try:
+            print(f"[LOG] Scraping {index['name']}")
+            grid = GridScraper(driver, index["name"], index["link"])
+            grid.run(extend_page=False)
+            print(f"[LOG] {index['name']} scraped")
+        except Exception as e:
+            print(f"[ERROR] An error occurred because: {str(e)}")
+            continue
 
         # Upload the new content
         print(f"[LOG] Uploading new documents for {index['name']}.")

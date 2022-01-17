@@ -114,19 +114,25 @@ class GridScraper:
         try:
             
             contents = self.get_contents()
-
-            for content in contents:
-                
-                answer = f"Veja o vídeo '{content['title']}' clicando em: {content['link']}"
-
-                row = {"question": content["title"], "answer": answer, 'document': self.url}
-
-                self.df_out = self.df_out.append(row, ignore_index=True)
-            
-            export_faq_csv(self.df_out, self.name)
             
         except Exception as e:
 
             print(f'[ERROR] An error occurred with this url: "{self.url}"')
             print(str(e))
+
+            return
+        
+        for content in contents:
+                
+            answer = f"Veja o vídeo '{content['title']}' clicando em: {content['link']}"
+
+            row = {"question": content["title"], "answer": answer, 'document': self.url}
+
+            self.df_out = self.df_out.append(row, ignore_index=True)
+
+        if len(self.df_out) == 0:
+
+            raise Exception("No item was scraped!")
+        
+        export_faq_csv(self.df_out, self.name)
 
