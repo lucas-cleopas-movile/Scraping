@@ -533,3 +533,58 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1642432155816	geckodriver	INFO	Listening on 127.0.0.1:41511
+1642432155821	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "44883" "-no-remote" "-profile" "/tmp/rust_mozprofileRPjoxB"
+*** You are running in headless mode.
+1642432156779	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRPjoxB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44883/devtools/browser/47d7bba8-2ba8-46d4-865e-fd120b724c4a
+1642432158550	Marionette	INFO	Listening on port 36735
+1642432158875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642432330328	geckodriver	INFO	Listening on 127.0.0.1:52403
+1642432330332	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52079" "-no-remote" "-profile" "/tmp/rust_mozprofileiEhgGQ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1642432331084	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiEhgGQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52079/devtools/browser/75d28926-47d6-4755-8f43-26f0e41fc3bf
+1642432332541	Marionette	INFO	Listening on port 37685
+1642432332651	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642432340562	Marionette	INFO	Stopped listening on port 37685
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1642432402224	geckodriver	INFO	Listening on 127.0.0.1:37933
+1642432402229	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57571" "-no-remote" "-profile" "/tmp/rust_mozprofileEmCCNI"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1642432403006	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEmCCNI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57571/devtools/browser/209be947-70a8-4b2c-bd59-0d53c84e2427
+1642432404570	Marionette	INFO	Listening on port 43057
+1642432404650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+JavaScript error: https://globoplay.globo.com/categorias/filmes-romanticos/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/filmes-romanticos/, line 3: { opened at line 3, column 19
+1642432556833	geckodriver	INFO	Listening on 127.0.0.1:59649
+1642432557350	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "58035" "-no-remote" "-profile" "/tmp/rust_mozprofilet0PkAV"
+*** You are running in headless mode.
+1642432557867	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilet0PkAV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58035/devtools/browser/61f79c10-a85d-4d24-a274-b6b3fd8bfcae
+1642432558943	Marionette	INFO	Listening on port 45877
+1642432559956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642432565922	Marionette	INFO	Stopped listening on port 43057
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+JavaScript error: https://globoplay.globo.com/categorias/filmes-romanticos/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/filmes-romanticos/, line 3: { opened at line 3, column 19

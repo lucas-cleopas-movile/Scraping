@@ -1,14 +1,25 @@
+from operator import index
 import os
 import requests
 
+
+def get_indexes_files():
+
+    path = f"./src/indexes/"
+
+    indexes_files = [path+file  for file in os.listdir(path)]
+
+    return indexes_files
+
+
 def export_faq_csv(df_out, name):
 
-    path = f'./data'
+    path = f"./data"
 
     if not os.path.isdir(path):
         os.makedirs(path)
 
-    df_out.to_csv(f'{path}/{name}_faq.csv')
+    df_out.to_csv(f"{path}/{name}_faq.csv")
 
 
 def upload_faq_files(index):
@@ -41,3 +52,7 @@ def upload_faq_files(index):
 
     print(response.status_code, response.content)
     return response.status_code, response.content
+
+if __name__ == "__main__":
+
+    get_index_files()

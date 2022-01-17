@@ -72,13 +72,17 @@ class GridScraper:
             except Exception as e:
 
                 print(f"[ERROR] {str(e)}")
+
                 if is_cookie:
+                    
                     print(f"[LOG] Trying avoid cookie banner.")
-                    if self.avoid_cookie_banner():
-                        is_cookie = False
-                        soup = BeautifulSoup(self.driver.page_source, features="lxml").findAll("div", class_="action-button action-button--hidden")
-                        continue
+                    
+                    self.avoid_cookie_banner()
+
                     is_cookie = False
+
+                    soup = BeautifulSoup(self.driver.page_source, features="lxml").findAll("div", class_="action-button action-button--hidden")
+                        
                 else:
                     print(f"[ERROR] {str(e)}")
                     break

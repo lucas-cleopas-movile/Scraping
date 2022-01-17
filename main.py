@@ -4,26 +4,23 @@ from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from src.scrapers.GridScraper import GridScraper
 from src.config import WEBDRIVER_PATH
-from src.utils import upload_faq_files
+from src.utils import upload_faq_files, get_indexes_files
 
 
-def start_scraper(driver):
+def start_scraper(driver, indexes):
 
-    with open("genders.json", "r") as f:
-        genders = json.loads(f.read())
+    for index in indexes:
 
-    for gender in genders:
-
-        # Scraping the gender
-        print(f"[LOG] Scraping {gender['name']}")
-        grid = GridScraper(driver, gender["name"], gender["link"])
+        # Scraping the index
+        print(f"[LOG] Scraping {index['name']}")
+        grid = GridScraper(driver, index["name"], index["link"])
         grid.run(extend_page=True)
-        print(f"[LOG] {gender['name']} scraped")
+        print(f"[LOG] {index['name']} scraped")
 
         # Upload the new content
-        print(f"[LOG] Uploading new documents for {gender['name']}.")
+        print(f"[LOG] Uploading new documents for {index['name']}.")
         try:
-            status, content = upload_faq_files(gender)
+            status, content = upload_faq_files(index)
             if status == 200:
                 print(f"[LOG] New documents was uploaded with success.")
             else:
@@ -51,4 +48,14 @@ if __name__ == "__main__":
     # Instantiate a webdriver
     driver = webdriver.Firefox(executable_path=WEBDRIVER_PATH, options=opts)
 
-    start_scraper(driver)
+    indexes_files = get_indexes_files()
+    
+    for indexes_file in indexes_files:
+
+        print(f"[LOG] Scraping {indexes_file.split('/')[-1]}")
+
+        with open(indexes_file, "r") as f:
+
+            indexes = json.loads(f.read())
+
+        start_scraper(driver, indexes)
