@@ -588,3 +588,35 @@ JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: Sy
 JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
 JavaScript error: https://globoplay.globo.com/categorias/filmes-romanticos/, line 7: SyntaxError: missing } after property list
 JavaScript note: https://globoplay.globo.com/categorias/filmes-romanticos/, line 3: { opened at line 3, column 19
+1642436623941	geckodriver	INFO	Listening on 127.0.0.1:37423
+1642436623946	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "35609" "-no-remote" "-profile" "/tmp/rust_mozprofile7vF3ov"
+*** You are running in headless mode.
+1642436624398	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7vF3ov/search.json.mozlz4", (void 0)))
+Exiting due to channel error.
+Exiting due to channel error.
+1642436627419	geckodriver	INFO	Listening on 127.0.0.1:36481
+1642436627424	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "42799" "-no-remote" "-profile" "/tmp/rust_mozprofile66rs59"
+*** You are running in headless mode.
+1642436627843	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile66rs59/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42799/devtools/browser/efcf09a3-ed51-4875-8d12-02e6607d0c0c
+1642436628961	Marionette	INFO	Listening on port 34493
+1642436629482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+1642438193240	geckodriver	INFO	Listening on 127.0.0.1:55027
+1642438193244	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "47413" "-no-remote" "-profile" "/tmp/rust_mozprofileRgiRVM"
+*** You are running in headless mode.
+1642438193712	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRgiRVM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47413/devtools/browser/9bea2895-d13c-4384-bced-c0bb2229fb5b
+1642438194840	Marionette	INFO	Listening on port 46375
+1642438194872	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+JavaScript error: https://globoplay.globo.com/categorias/filmes-romanticos/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/filmes-romanticos/, line 3: { opened at line 3, column 19

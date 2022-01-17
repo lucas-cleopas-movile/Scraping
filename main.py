@@ -3,7 +3,7 @@ import json
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from src.scrapers.GridScraper import GridScraper
-from src.config import WEBDRIVER_PATH
+from src.config import WEBDRIVER_PATH, BASE_URL
 from src.utils import upload_faq_files, get_indexes_files
 
 
@@ -14,7 +14,7 @@ def start_scraper(driver, indexes):
         # Scraping the index
         print(f"[LOG] Scraping {index['name']}")
         grid = GridScraper(driver, index["name"], index["link"])
-        grid.run(extend_page=True)
+        grid.run(extend_page=False)
         print(f"[LOG] {index['name']} scraped")
 
         # Upload the new content
@@ -47,6 +47,9 @@ if __name__ == "__main__":
 
     # Instantiate a webdriver
     driver = webdriver.Firefox(executable_path=WEBDRIVER_PATH, options=opts)
+
+    # Start driver
+    driver.get(BASE_URL)
 
     indexes_files = get_indexes_files()
     

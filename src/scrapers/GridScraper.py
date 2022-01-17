@@ -44,7 +44,7 @@ class GridScraper:
         
         except Exception as e:
 
-            print(f"[ERROR] {str(e)}")
+            print(f"[ERROR] Cookie banner not found.")
 
             return False
     
@@ -53,12 +53,10 @@ class GridScraper:
 
         print("[LOG] Extending the page.")
 
-        soup = BeautifulSoup(self.driver.page_source, features="lxml").findAll("div", class_="action-button action-button--hidden")
-        
-        is_cookie = True
-        
+        soup = []
+                
         while len(soup) == 0:
-
+            
             try:
 
                 button = self.driver.find_element_by_id("action-button-Veja mais")
@@ -73,24 +71,20 @@ class GridScraper:
 
                 print(f"[ERROR] {str(e)}")
 
-                if is_cookie:
-                    
-                    print(f"[LOG] Trying avoid cookie banner.")
-                    
-                    self.avoid_cookie_banner()
-
-                    is_cookie = False
-
-                    soup = BeautifulSoup(self.driver.page_source, features="lxml").findAll("div", class_="action-button action-button--hidden")
+                print(f"[LOG] Trying avoid cookie banner.")
+                
+                is_cookie = self.avoid_cookie_banner()
                         
-                else:
-                    print(f"[ERROR] {str(e)}")
+                if not is_cookie:
+
                     break
         
         print("[LOG] Page extended.")
 
 
     def get_contents(self):
+
+        self.avoid_cookie_banner()
         
         soup = BeautifulSoup(self.driver.page_source, features="lxml").findAll("li", class_="playkit-offers__list-li playkit-offers__list-li--poster")
 

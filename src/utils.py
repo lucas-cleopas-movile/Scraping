@@ -1,4 +1,3 @@
-from operator import index
 import os
 import requests
 
@@ -52,7 +51,3 @@ def upload_faq_files(index):
 
     print(response.status_code, response.content)
     return response.status_code, response.content
-
-if __name__ == "__main__":
-
-    get_index_files()
