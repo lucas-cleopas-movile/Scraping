@@ -502,3 +502,34 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://localhost:37383/devtools/browser/2ebe94e1-3c7b-4c98-85b6-0726e824c5e9
 1642183630930	Marionette	INFO	Listening on port 34933
 1642183631734	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642188146790	geckodriver	INFO	Listening on 127.0.0.1:34225
+1642188146795	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "45121" "-no-remote" "-profile" "/tmp/rust_mozprofileyDGG62"
+*** You are running in headless mode.
+1642188148352	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyDGG62/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45121/devtools/browser/e3ad40c0-fada-4d31-a64a-fcf745f6f1a1
+1642188149673	Marionette	INFO	Listening on port 36777
+1642188149736	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://globoplay.globo.com/categorias/biografias/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/biografias/, line 3: { opened at line 3, column 19
+JavaScript error: https://globoplay.globo.com/categorias/filmes-romanticos/, line 7: SyntaxError: missing } after property list
+JavaScript note: https://globoplay.globo.com/categorias/filmes-romanticos/, line 3: { opened at line 3, column 19
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
