@@ -78,6 +78,7 @@ class GridScraper:
                         is_cookie = False
                         soup = BeautifulSoup(self.driver.page_source, features="lxml").findAll("div", class_="action-button action-button--hidden")
                         continue
+                    is_cookie = False
                 else:
                     print(f"[ERROR] {str(e)}")
                     break
