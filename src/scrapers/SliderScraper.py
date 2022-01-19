@@ -22,13 +22,13 @@ class SliderScraper:
         # Parse processed webpage with BeautifulSoup
         soup = BeautifulSoup(self.driver.page_source)
 
-        soup2 = soup.find("div", class_="playkit-slider__track")
-
         items = []
 
-        for item in soup2.findAll("div", class_="playkit-slider__item"):
-            items.append({"name": item.a["title"], "link": BASE_URL + item.a["href"]})
-            print(item.a["title"], item.a["href"])
+        for item in soup.findAll("li", class_="article-item selfServiceArticleListItem"):
+            print({"topic": item.article.a.h2.get_text(), "link": item.article.a["href"]})
+            items.append({"topic": item.article.a.h2.get_text(), "link": item.article.a["href"]})
+            
+            break
         
         return items
 
