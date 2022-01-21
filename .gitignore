@@ -1,3 +1,4 @@
 src/__pycache__/
 src/scrapers/__pycache__/
 scraping
+src/indexes/newbalance.json

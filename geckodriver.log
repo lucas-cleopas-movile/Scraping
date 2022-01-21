@@ -736,3 +736,12 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://localhost:41989/devtools/browser/b58e43c5-d89a-4384-9302-3307289f77ce
 1642606510011	Marionette	INFO	Listening on port 33113
 1642606510969	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642612156921	Marionette	INFO	Stopped listening on port 33113
+1642612156953	Marionette	INFO	Stopped listening on port 35691
+1642612156964	Marionette	INFO	Stopped listening on port 40015
+Exiting due to channel error.
+Exiting due to channel error.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A00E7,name=PContent::Msg_GraphicsError) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
